@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+.proyectos .proyecto-check.check,
+.tareas .tareas-check.check  {
+    color: #000000;
+}
+
+.proyectos p.check,
+.tareas p.check {
+    text-decoration: line-through;
+    color: #000000;
+}
+
+.proyectos.check {
+    --tw-bg-opacity: .8;
+    background-color: rgb(91 129 271 / var(--tw-bg-opacity));
+}
+
+.tareas.check {
+    --tw-bg-opacity: .8;
+    background-color: rgb(114 213 150 / var(--tw-bg-opacity));
+}
+
+.proyectos.select {
+    box-shadow: 2px 3px 4px rgb(0,0,0,0.6);
+    background-color: #1a1717;
+}
